@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.takoda.sudoku.StartScreen">
+
+
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/easybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/mediumbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/hardbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/expertbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expert"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+
+
+</LinearLayout>
+
