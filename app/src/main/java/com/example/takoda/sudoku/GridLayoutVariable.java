@@ -38,10 +38,10 @@ public class GridLayoutVariable extends GridLayout {
     }
 
     private void setDimensions(){
-        /*int height = getScreenHeight();
+        int height = getScreenHeight();
         int width = getScreenWidth();
-        height = width;
-        setLayoutParams(new ViewGroup.LayoutParams(width - 30, height - 30));*/
+        height = height / width;
+        setLayoutParams(new ViewGroup.LayoutParams(width - 30, height - 30));
     }
 
 

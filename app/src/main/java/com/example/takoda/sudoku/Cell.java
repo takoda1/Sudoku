@@ -172,4 +172,9 @@ public class Cell extends GridLayout {
         setDimensions();
         return super.checkLayoutParams(p);
     }
+
+
+    public void setOnClickListener() {
+
+    }
 }
